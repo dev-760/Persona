@@ -1,0 +1,67 @@
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.env
+.DS_Store
+```
+
+3. **Create a README.md file**
+````markdown
+// filepath: README.md
+# Persona App
+
+A React Native mobile application for personality assessment and social connections.
+
+## Features
+
+- Personality assessment
+- User profiles
+- Firebase integration
+- Theme support
+- Image upload functionality
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/YourUsername/Persona.git
+```
+
+2. Install dependencies
+```bash
+cd Persona
+npm install
+```
+
+3. Start the development server
+```bash
+npm start
+```
+
+## Technologies Used
+
+- React Native
+- Expo
+- Firebase
+- React Navigation
+
+## Environment Setup
+
+Create a `.env` file in the root directory with your Firebase configuration:
+
+```
+FIREBASE_API_KEY=your_api_key
+FIREBASE_AUTH_DOMAIN=your_auth_domain
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_STORAGE_BUCKET=your_storage_bucket
+FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+FIREBASE_APP_ID=your_app_id
+```
